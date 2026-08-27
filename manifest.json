@@ -1,6 +1,6 @@
 {
-  "name": "REKAP REGISTER PUS",
-  "short_name": "R/I/PUS KAB",
+  "name": "REGISTER PUS",
+  "short_name": "R/I/PUS",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
