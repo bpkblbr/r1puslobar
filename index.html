@@ -66,14 +66,6 @@
     <div class="spinner"></div>
     <p style="font-size: 14px; font-weight: 500;">Memuat aplikasi...</p>
   </div>
-
-  <!-- 1. Pemasangan onload pada iframe -->
-  <iframe 
-    id="gasFrame"
-    src="https://script.google.com/macros/s/AKfycbycMvHt8lT7ZunvyOBFcnB_3r6pE19QBhAh8t0AZfEpkPfQyZouxbjQ-pEUtUD9bjv_RA/exec" 
-    allow="geolocation; microphone; camera"
-    onload="hideLoader()">
-  </iframe>
   
     window.addEventListener("message", function(event) {
       if (event.data === "keluar_aplikasi") {
