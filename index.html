@@ -74,16 +74,7 @@
     allow="geolocation; microphone; camera"
     onload="hideLoader()">
   </iframe>
-
-  <!-- 2. Fungsi hideLoader, penanganan keluar, dan Service Worker -->
-  <script>
-    function hideLoader() {
-      const loader = document.querySelector('.loading-container');
-      if (loader) {
-        loader.style.display = 'none';
-      }
-    }
-
+  
     window.addEventListener("message", function(event) {
       if (event.data === "keluar_aplikasi") {
         try {
